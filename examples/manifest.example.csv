@@ -1,0 +1,4 @@
+clip_id,wav_path,split,species,group
+example_001,C:/path/to/your/audio_001.wav,eval,unknown,group_a
+example_002,C:/path/to/your/audio_002.wav,eval,unknown,group_b
+example_003,C:/path/to/your/audio_003.wav,train,unknown,group_c

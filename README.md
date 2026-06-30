@@ -26,6 +26,20 @@ The pack covers the decision-critical EnCodec experiments:
 
 These scripts are intended to reproduce the experimental logic, not our exact dataset-specific verdicts.
 
+## Research Context
+
+Selected route summaries and external-review briefs are included under:
+
+```text
+docs/route_summaries/
+```
+
+Start with:
+
+```text
+docs/route_summaries/pscx_a133_a1401_encodec_external_expert_direction_brief_20260630.md
+```
+
 ## Install
 
 ```powershell

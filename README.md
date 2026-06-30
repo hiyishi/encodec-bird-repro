@@ -1,8 +1,20 @@
-# EnCodec Bird-Codec Reproduction Pack
+# EnCodec Bird Bioacoustic Continuation Pack
 
-This directory is a minimal, self-contained reproduction pack for the EnCodec-centered experiments in Bio-FARGAN / PS-CX A133-A140.1.
+This repository is a minimal continuation and reproduction pack for the EnCodec-centered bioacoustic compression experiments in Bio-FARGAN / PS-CX A133-A140.1.
 
-It does not include our data, run outputs, or internal project helpers. Researchers should run it on their own WAV files through a simple manifest.
+It is meant for restarting the work on another machine with another local dataset, while keeping enough context to avoid repeating already-consumed routes.
+
+It does not include our data, run outputs, or internal project helpers. Use your own WAV files through a simple manifest.
+
+## If You Are Resuming This Project
+
+Start here:
+
+```text
+docs/NEXT_START_HERE.md
+```
+
+That file gives the recommended first-day workflow, the no-promote routes to avoid restarting from, and the decision tree for whether to continue EnCodec, switch codec family, or frame the work as a benchmark / negative-oracle study.
 
 ## What This Reproduces
 
@@ -24,7 +36,7 @@ The pack covers the decision-critical EnCodec experiments:
     E1.5 + 0.10/0.25/0.50 kbps marginal detail UB
 ```
 
-These scripts are intended to reproduce the experimental logic, not our exact dataset-specific verdicts.
+These scripts are intended to reproduce the experimental logic and restart the research loop, not our exact dataset-specific verdicts.
 
 ## Research Context
 
@@ -37,6 +49,7 @@ docs/route_summaries/
 Start with:
 
 ```text
+docs/NEXT_START_HERE.md
 docs/route_summaries/pscx_a133_a1401_encodec_external_expert_direction_brief_20260630.md
 ```
 
@@ -147,7 +160,7 @@ They only test whether a detail-token design would have theoretical listening va
 
 If an exact-detail upper bound does not audibly beat the EnCodec anchor, a legal compressed version is unlikely to be worth building.
 
-## Suggested External Verdict Sheet
+## Suggested Verdict Sheet
 
 For every clip and route family, record:
 
@@ -179,4 +192,4 @@ E1.5 + 0.10/0.25/0.50 kbps exact-detail UB:
   no clear audible difference from E1.5.
 ```
 
-External researchers should treat this pack as a way to test whether that conclusion holds on their own datasets.
+Treat this pack as a way to test whether that conclusion holds on a new dataset, and as a launchpad for the next branch if it does not.

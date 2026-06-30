@@ -8,10 +8,11 @@ The reproduction scripts in this repository are intentionally data-free. These d
 
 Read these first:
 
-1. `pscx_a133_a1401_encodec_external_expert_direction_brief_20260630.md`
-2. `pscx_a117_a1362c_external_expert_review_brief_20260627.md`
-3. `pscx_a140_decision_freeze_after_encodec_no_go_20260629.md`
-4. `pscx_a1401_marginal_side_channel_value_oracle_20260629.md`
+1. `../NEXT_START_HERE.md`
+2. `pscx_a133_a1401_encodec_external_expert_direction_brief_20260630.md`
+3. `pscx_a117_a1362c_external_expert_review_brief_20260627.md`
+4. `pscx_a140_decision_freeze_after_encodec_no_go_20260629.md`
+5. `pscx_a1401_marginal_side_channel_value_oracle_20260629.md`
 
 ## Suggested Order
 
